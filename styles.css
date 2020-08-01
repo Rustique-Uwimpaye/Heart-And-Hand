@@ -3,7 +3,7 @@ body, html{
     padding: 0;
     font-family: sans-serif;
     font-size: 16px;
-    background-color: rgb(36, 34, 34);
+    background-color: rgba(12, 12, 12, 0.993);
     color:white
 
 }
@@ -14,6 +14,10 @@ body, html{
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+}
+#logo{
+    float: left;
+    display: inline-block;
 }
 #menu{
     display: flex;
@@ -51,19 +55,8 @@ body, html{
     width: 80%;
     font-size: x-large;
 }
-#CTA{
-    width: 120px;
-    height: 50px;
-    border: 0px;
-    border-radius: 30px;
-    background-color: #0bd826;
-
-    
-
-}
-#CTA:hover{
-    color:blue;
-    transform: scale(1.2);
+#more{
+    display: none;
 }
 #testimonials{
     display: flex;
@@ -119,11 +112,11 @@ body, html{
     padding:40px;
     width: 600px;
 }
-.two, .four{
+.two, .four, .six{
     flex-direction: row-reverse;
     margin-right: -700px;
 }
-.one, .three{
+.one, .three, .five{
   flex-direction: row;
   margin-left: -500px;
    
@@ -160,7 +153,7 @@ body, html{
     transform: scale(2);
 }
 #footer{
-    background-color: dimgrey;
+    background-color: grey;
     height: 300px;
 }
 
